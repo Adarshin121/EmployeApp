@@ -1,5 +1,5 @@
-
-
+//1.importing experss
+const express = require('express')
 var cors = require("cors");
 require("./connection");
 var empModel = require("./model/student");
