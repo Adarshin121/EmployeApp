@@ -5,9 +5,10 @@ require("./connection");
 var empModel = require("./model/student");
 var app = express();
 
-// midd
+// middleware
 app.use(express.json());
 app.use(cors());
+
 // api to add
 app.post("/add", async (req, res) => {
   try {
